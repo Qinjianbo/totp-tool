@@ -1,0 +1,16 @@
+{
+  "name": "totp-tool",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "在浏览器本地生成和批量管理 TOTP 动态验证码",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs --dist",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": { "node": ">=20.19.0" },
+  "dependencies": { "otpauth": "9.6.0" }
+}
